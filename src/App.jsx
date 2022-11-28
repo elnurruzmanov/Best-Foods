@@ -1,5 +1,7 @@
 import React from 'react'
+import HeadLineCards from './components/HeadLineCards'
 import Hero from './components/Hero'
+import Food from './components/Food'
 
 import Navbar from './components/Navbar'
 
@@ -9,6 +11,8 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
+      <HeadLineCards />
+      <Food />
     </div>
     </>
   )
