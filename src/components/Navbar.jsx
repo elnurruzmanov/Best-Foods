@@ -61,31 +61,31 @@ const Navbar = () => {
         </h2>
         <nav>
           <ul className="flex flex-col p-4 text-gray-800 ">
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 transition duration-4500 flex hover hover:bg-gray-300 cursor-pointer">
               <TbTruckDelivery size={25} className="mr-4" />
               Orders
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex transition duration-4500  hover hover:bg-gray-300 cursor-pointer">
               <MdFavorite size={25} className="mr-4" />
               Favorites
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex transition duration-4500 hover hover:bg-gray-300 cursor-pointer">
               <FaWallet size={25} className="mr-4" />
               Wallet
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex transition duration-4500  hover hover:bg-gray-300 cursor-pointer">
               <MdHelp size={25} className="mr-4" />
               Help
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex transition duration-4500 hover hover:bg-gray-300 cursor-pointer">
               <AiFillTag size={25} className="mr-4" />
               Promotions
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex transition duration-4500 hover hover:bg-gray-300 cursor-pointer">
               <BsFillSaveFill size={25} className="mr-4" />
               Best Ones
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex transition duration-4500 hover hover:bg-gray-300 cursor-pointer">
               <FaUserFriends size={25} className="mr-4" />
               Invite Friends
             </li>

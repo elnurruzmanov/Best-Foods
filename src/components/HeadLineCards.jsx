@@ -6,7 +6,7 @@ const HeadLineCards = () => {
       {/* Cards */}
     <div className='rounded-xl relative w-1/3	'>
       {/* Overlay */}
-      <div className='absolute w-full h-full  bg-black/50 rounded-xl text-white'>
+      <div className='absolute w-full h-full  bg-black/50 rounded-xl text-white  cursor-pointer hover:scale-102	transition-all duration-500'>
         <p className='font-bold text-2xl px-2 pt-4 '>Sun's Out, Bogo's Out </p>
         <p className='px-2'>Through 8/26</p>
         <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
@@ -16,7 +16,7 @@ const HeadLineCards = () => {
       {/* Cards */}
     <div className='rounded-xl relative w-1/3'>
       {/* Overlay */}
-      <div className='absolute w-full h-full  bg-black/50 rounded-xl text-white'>
+      <div className='absolute w-full h-full  bg-black/50 rounded-xl text-white cursor-pointer'>
         <p className='font-bold text-2xl px-2 pt-4 '>New Restaurants</p>
         <p className='px-2'>Added Daily</p>
         <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
@@ -26,7 +26,7 @@ const HeadLineCards = () => {
       {/* Cards */}
     <div className='rounded-xl relative w-1/3'>
       {/* Overlay */}
-      <div className='absolute w-full h-full  bg-black/50 rounded-xl text-white'>
+      <div className='absolute w-full h-full  bg-black/50 rounded-xl text-white cursor-pointer'>
         <p className='font-bold text-2xl px-2 pt-4 '>We Deliver Deserts Too</p>
         <p className='px-2'>Tasty Treats</p>
         <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
